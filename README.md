@@ -5,9 +5,9 @@ In this excercise you should train your ability to create routes in express.js a
 ## The assignment
 You should set up an application that follow this rules:
 
-1. The application should listen to port 8000.
+1. The web application should listen to port 8000.
 
-2. When the client asks for the root URL a static file (index.html) should be responded to the client.
+2. When the client asks for the root URL a static html file (index.html) should be responded to the client.
 
 3. The application should have a main layout defining a templete for all dynamic views.
 
@@ -17,11 +17,11 @@ You should set up an application that follow this rules:
 
 6. When the client asks for the "/products/create" URL a view should be render with a simple HTML formular should be shown. The form should have a button that posts the form to the URL described in point 7.
 
-7. When the client posts the form above a function should be called that redirects the client to the URL "/products".
+7. When the client send a HTTP POST to "/products/create" a function should be called that redirects the client to the URL "/products".
 
-8. When the client calls a URL that does is defeined above a nice 404-page should be render.
+8. When the client calls a URL that is undefeined a 404-page should be render.
 
-9. The application should be able to handle errors
+9. The application should be able to handle errors and respond with a 500 status.
 
 ## Vagrant
 If you need a vagrant with node.js use https://github.com/1dv023/node-mongodb-vagrant.
