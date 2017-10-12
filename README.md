@@ -22,7 +22,3 @@ You should set up an application that follow this rules:
 8. When the client calls a URL that is undefeined a 404-page should be render.
 
 9. The application should be able to handle errors and respond with a 500 status.
-
-## Vagrant
-If you need a vagrant with node.js use https://github.com/1dv023/node-mongodb-vagrant.
-
